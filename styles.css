@@ -30,7 +30,9 @@ main {
   text-decoration: none;
 }
 
-a {
+a,
+a:active,
+a:-webkit-any-link {
   text-decoration: none;
   font-family: poppins, sans-serif;
   font-size: 15px;
@@ -242,6 +244,9 @@ html {
   padding-right: 40px;
 }
 
+footer {
+  padding-left: 20px;
+}
 @media (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
